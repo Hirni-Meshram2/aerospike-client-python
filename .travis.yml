@@ -1,12 +1,15 @@
 language: python
 python:
-- 3.6
-- 3.7
+#- 3.6
+#- 3.7
 - 3.8
 sudo: false
 os:
 - linux
 dist: xenial
+arch:
+- amd64
+- arm64
 addons:
   apt:
     packages:
